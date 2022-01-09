@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pag 3</title>
+
+    <style>
+        .container {
+            position: absolute;
+            left: 20%;
+            top: 5%
+        }
+        
+        .caja {
+            display: inline-block;
+        }
+        
+        .box {
+            border: 1px solid;
+            width: 360px;
+            height: 240px;
+            display: inline-block;
+            margin: 5px;
+            position: relative;
+        }
+        /* España */
+        
+        .rojo_españa {
+            background-color: red;
+            height: 27.5%;
+        }
+        
+        .amarillo_españa {
+            background-color: yellow;
+            height: 45%;
+        }
+        /* Dinamarca */
+        
+        .bandera_dinamarca {
+            background-color: white;
+            position: relative;
+        }
+        
+        .dinamarca_chico {
+            background-color: red;
+            width: 25%;
+            height: 46%;
+            position: absolute;
+        }
+        
+        .dinamarca_grande {
+            background-color: red;
+            width: 70%;
+            height: 46%;
+            position: absolute;
+        }
+        
+        .dinamarca_chico1 {
+            top: 0;
+            left: 0;
+        }
+        
+        .dinamarca_chico2 {
+            bottom: 0;
+            left: 0;
+        }
+        
+        .dinamarca_grande3 {
+            bottom: 0;
+            right: 0;
+        }
+        
+        .dinamarca_grande4 {
+            top: 0;
+            right: 0;
+        }
+        /* Emiratos Árabes */
+        
+        .bandera_emiratos {
+            background-color: red;
+            position: relative;
+        }
+        
+        .emiratos_verde {
+            background-color: green;
+            position: absolute;
+            width: 70%;
+            height: 33.3%;
+            right: 0;
+            top: 0;
+        }
+        
+        .emiratos_blanco {
+            background-color: white;
+            position: absolute;
+            width: 70%;
+            height: 33.3%;
+            right: 0;
+            top: 33.3%
+        }
+        
+        .emiratos_negro {
+            background-color: black;
+            position: absolute;
+            width: 70%;
+            height: 33.3%;
+            right: 0;
+            bottom: 0;
+        }
+        /* Japón */
+        
+        .japon {
+            background-color: red;
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+            position: absolute;
+            top: 70px;
+            right: 130px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <!-- España -->
+        <div class="caja">
+            <div class="box">
+                <div class="rojo_españa"></div>
+                <div class="amarillo_españa"></div>
+                <div class="rojo_españa"></div>
+            </div>
+            <p>España</p>
+        </div>
+
+        <!-- Dinamarca -->
+        <div class="caja">
+            <div class="box bandera_dinamarca">
+                <div class="dinamarca_chico dinamarca_chico1"></div>
+                <div class="dinamarca_chico dinamarca_chico2"></div>
+                <div class="dinamarca_grande dinamarca_grande3"></div>
+                <div class="dinamarca_grande dinamarca_grande4"></div>
+            </div>
+            <p>Dinamarca</p>
+        </div>
+
+        <!-- Emiratos Árabes -->
+        <div class="caja">
+            <div class="box bandera_emiratos">
+                <div class="emiratos_verde"></div>
+                <div class="emiratos_blanco"></div>
+                <div class="emiratos_negro"></div>
+            </div>
+            <p>Emiratos Árabes</p>
+        </div>
+
+        <!-- Japón -->
+        <div class="caja">
+            <div class="box">
+                <div class="japon"></div>
+            </div>
+            <p>Japón</p>
+        </div>
+    </div>
+</body>
+
+</html>
